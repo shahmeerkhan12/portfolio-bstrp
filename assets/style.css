@@ -46,7 +46,9 @@ body {
   padding-top: 5%;
   color: #fff;
 }
-.title-name {
+#title-name {
+  padding: 0px 20px;
+  background-color: #003258;
   font-size: 40px;
   font-weight: 600;
   margin-top: 90px;
@@ -66,18 +68,22 @@ body {
 /* services section */
 
 #services {
-  padding: 80px 0px;
+  background-image: linear-gradient(
+    to right,
+    rgb(21, 9, 9),
+    rgb(176, 154, 236)
+  );
+  padding-top: 80px;
 }
 #services .service-img {
   width: 160px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .services {
-  padding: 20px;
+  padding: 0px;
 }
 .services h4 {
   padding: 5px;
-  margin-top: 25px;
   text-transform: uppercase;
 }
 .title::before {
