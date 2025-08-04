@@ -53,10 +53,7 @@ body {
   font-weight: 600;
   margin-top: 90px;
 }
-.collection {
-  width: 45px;
-  margin: 20px;
-}
+
 #banner a {
   color: #fff;
   margin: 25px;
@@ -65,28 +62,85 @@ body {
 .bottom-img {
   width: 100%;
 }
-/* services section */
-
-#services {
+/* projects section */
+#projects {
+  background: #000;
+  color: white;
   padding-top: 80px;
+  padding-bottom: 40px;
 }
-/*  catalogue img */
-
 .row {
   row-gap: 5%;
   align-items: baseline;
 }
-#services .service-img {
+/* fixing the img */
+#projects .row img {
   width: 100%;
-  height: auto;
+  height: 300px;
+  object-fit: cover;
 }
-.services {
-  padding: 0px;
-}
-.services h4 {
+#projects h4 {
+  margin-top: 40px;
   padding: 5px;
   text-transform: uppercase;
 }
+.projects-catalogue {
+  padding: 50px;
+  margin: 50px;
+}
+/* tech stack animation */
+.tech-stack {
+  overflow: hidden;
+}
+.tech-stack-item {
+  transform: translateX(100vw);
+  animation: slideIn 1s ease-out forwards;
+}
+/* delaying the animation for each child */
+.tech-stack-item:nth-child(1) {
+  animation-delay: 0.5s;
+}
+.tech-stack-item:nth-child(2) {
+  animation-delay: 0.5s;
+}
+.tech-stack-item:nth-child(3) {
+  animation-delay: 0.5s;
+}
+/* animation keyframes */
+@keyframes slideIn {
+  from {
+    transform: translateX(100vw);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+/* tech-stack-two animation */
+.tech-stack-two {
+  overflow: hidden;
+}
+.tech-stack-two-item {
+  transform: translateX(-100vw);
+  animation: newSlideIn 1s ease-out forwards;
+}
+.tech-stack-item:nth-child(1) {
+  animation-delay: 0.5s;
+}
+.tech-stack-item:nth-child(2) {
+  animation-delay: 0.5s;
+}
+.tech-stack-item:nth-child(3) {
+  animation-delay: 0.5s;
+}
+@keyframes newSlideIn {
+  from {
+    transform: translateX(-100vw);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+/* tech stack animation */
 .title::before {
   content: "";
   background-color: rgb(235, 19, 235);
@@ -109,13 +163,7 @@ body {
   display: block;
   transform: translateY(7px);
 }
-#services .btn {
-  box-shadow: none;
-  border: none;
-  border-radius: 20px;
-  padding: 10px 26px;
-  background-image: linear-gradient(to right, #0066b2, #2da8e1);
-}
+
 /* about us */
 #about-us {
   background-color: #f8f9fa;
