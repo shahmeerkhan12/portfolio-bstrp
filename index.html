@@ -3,317 +3,408 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shah_khan</title>
-    <!-- linking the bootstrap files -->
-    <!-- <link rel="stylesheet" href="./assets/css/bootstrap.min.css" /> -->
-
-    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Shahmir Khan | Research Profile</title>
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
-    <script src="./assets/js/bootstrap.bundle.min.js"></script>
-    <!-- linking the font-awesome files -->
     <link rel="stylesheet" href="./assets/css/all.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
   </head>
   <body>
-    <!-- section-navbar -->
-    <section id="nav-bar">
-      <!-- adding the bstrp navbar code -->
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"
-            ><img src="./assets/images/demo-logo.png" alt=""
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="fa fa-bars"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-30">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">HOME</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">SERVICES</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">ABOUT US</a>
-              </li>
-              <li class="nav-item ml-auto">
-                <a class="nav-link" href="#">TESTIMONIALS</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <!-- navbar bstrp end -->
-    </section>
-    <!-- banner section started -->
-    <section id="banner">
+
+    <!-- ───── NAVBAR ───── -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="main-nav">
       <div class="container">
-        <div class="row">
-          <!-- first colum -->
-          <div class="col-md-6">
-            <p>I'm <span id="title-name"> </span></p>
-            <p>
-              Aspiring Web Developer and ML practitioner, I build customized,
-              AI-powered web applications for my clients according to their
-              needs.
+        <a class="navbar-brand" href="#home">SK</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+          aria-controls="navMenu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#research">Research</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#hackathons">Hackathons</a></li>
+            <li class="nav-item"><a class="nav-link" href="#awards">Awards</a></li>
+            <li class="nav-item"><a class="nav-link" href="#cv">CV</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ───── HERO ───── -->
+    <section id="home">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <p class="hero-tag">Research Profile</p>
+            <h1 class="hero-name">Shahmir Khan</h1>
+            <p class="hero-role">CS Graduate &nbsp;|&nbsp; AI &amp; ML Researcher &nbsp;|&nbsp; LLM Applications</p>
+            <p class="hero-bio">
+              Computer Science graduate with distinction, focused on deep learning, recommender systems,
+              and LLM-powered applications that solve real-world problems.
             </p>
-            <a
-              ><img
-                style="width: 50px; height: 40px"
-                class="collection"
-                src="./assets/images/collection.png"
-                alt="my web site collection"
-              />My Collection</a
-            >
+            <div class="hero-btns">
+              <a href="#projects" class="btn-primary-custom">View Projects</a>
+              <a href="#research" class="btn-outline-custom">Research Interests</a>
+            </div>
           </div>
-          <!-- 2nd colum -->
-          <div class="col-md-6">
-            <img
-              src="./assets/images/dev-promo-img.webp"
-              alt=""
-              class="img-fluid"
-            />
+          <div class="hero-photo">
+            <img src="./assets/images/profile photo.jpeg" alt="Shahmir Khan" />
           </div>
         </div>
       </div>
-      <img src="./assets/images/wave1.png" class="bottom-img" />
+      <div class="hero-wave">
+        <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#f9fafb"/>
+        </svg>
+      </div>
     </section>
 
-    <!-- projects section -->
-    <section id="projects">
-      <div class="container text-center">
-        <h1 class="title">My Project Catalogue</h1>
-        <div class="row text-center projects-catalogue">
-          <div class="col-md-6">
-            <img
-              style="border: 1px solid rgb(254, 251, 251); border-radius: 20px"
-              src="./assets/images/recomenderWebsite.png"
-              class="iiimg-fluid"
-              alt=""
-            />
-
-            <h4>Deep Learning based Recommendation Ecommerce Website</h4>
-            <p>
-              Building customized websites has never been so fast and effecient.
-              I deliver 100% accurate and satisfactory work for my clients.
-            </p>
-          </div>
-          <div class="col-md-6">
-            <img
-              style="border: 1px solid grey; border-radius: 20px"
-              src="./assets/images/burger-site.png"
-              class="img-fluid"
-              alt=""
-            />
-            <h4>Burger Shop Online Ordering Website</h4>
-            <p>
-              Building customized websites has never been so fast and effecient.
-              I deliver 100% accurate and satisfactory work for my clients.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- technology stack -->
-    <section id="technology">
-      <div class="container text-center">
-        <h1 class="title">Technology Stack</h1>
-        <div class="row text-center tech-stack">
-          <div class="col-md-4 services tech-stack-item">
-            <img
-              src="./assets/images/react.png"
-              class="service-img img-fluid"
-              alt=""
-            />
-            <h2>React</h2>
-          </div>
-          <div class="col-md-4 services tech-stack-item">
-            <img
-              src="./assets/images/django.png"
-              class="service-img img-fluid"
-              alt=""
-            />
-            <h2>django</h2>
-          </div>
-          <div class="col-md-4 services tech-stack-item">
-            <img
-              src="./assets/images/html.png"
-              class="service-img img-fluid"
-              alt=""
-            />
-            <h2>HTML5</h2>
-          </div>
-        </div>
-        <!-- 2nd row -->
-        <div class="row text-center tech-stack">
-          <div class="col-md-4 services tech-stack-item">
-            <img
-              src="./assets/images/css3.jfif"
-              class="service-img img-fluid"
-              alt=""
-            />
-            <h2>CSS3</h2>
-          </div>
-          <div class="col-md-4 services">
-            <img
-              src="./assets/images/bootstrap.jfif"
-              class="service-img img-fluid"
-              alt=""
-            />
-            <h2>FLASK</h2>
-          </div>
-          <!-- tech-stack-two first item -->
-          <div class="col-md-4 services tech-stack-two-item">
-            <img
-              src="./assets/images/typescript.png"
-              class="service-img img-fluid"
-              alt=""
-            />
-            <h2>Typescript</h2>
-          </div>
-        </div>
-        <!-- 3rd row -->
-        <div class="row text-center tech-stack-two">
-          <div class="col-md-4 services tech-stack-two-item">
-            <img
-              src="./assets/images/js.png"
-              class="service-img img-fluid"
-              alt=""
-            />
-            <h2>JavaScript</h2>
-          </div>
-          <div class="col-md-4 services tech-stack-two-item">
-            <img
-              src="./assets/images/sql.png"
-              class="service-img img-fluid"
-              alt=""
-            />
-            <h2>SQL</h2>
-          </div>
-          <div class="col-md-4 services tech-stack-two-item">
-            <img
-              src="./assets/images/tailwind.png"
-              class="service-img img-fluid"
-              alt=""
-            />
-            <h2>Tailwind</h2>
-          </div>
-        </div>
-        <!-- 4rth row -->
-      </div>
-    </section>
-    <!-- technology stack end -->
-    <!-- about us -->
-    <section id="about-us">
+    <!-- ───── ABOUT ───── -->
+    <section id="about">
       <div class="container">
-        <h1 class="title text-center">About Me</h1>
-        <div class="row">
-          <div class="col-md-6 about-us">
-            <p class="about-title">Why Hire Me?</p>
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              Hi, my name is Shahmir Khan. I have completed my Bachelors in Computer Science with a distinction.
+              During my bachelor's I focused on core subjects including programming fundamentals, data structures
+              and algorithms, artificial intelligence, and parallel &amp; distributed systems — which helped me
+              understand how scalable systems are designed and implemented, with a strong focus on LLM-powered
+              AI applications that solve real-world problems.
+            </p>
+            <div class="about-stats">
+              <div class="stat-card">
+                <span class="stat-num">89%</span>
+                <span class="stat-label">FYP Model Accuracy</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-num">3+</span>
+                <span class="stat-label">Research Projects</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-num">BS CS</span>
+                <span class="stat-label">with Distinction</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-links">
+            <h3>Quick Links</h3>
             <ul>
-              <li></li>
-              <li>24/7 online presence with quick feedback system.</li>
-              <li>Guaranteed Client Satisfaction and Fast delivery</li>
-              <li>24/7 online presence with quick feedback system.</li>
-              <li>Guaranteed Client Satisfaction and Fast delivery</li>
-              <li>24/7 online presence with quick feedback system.</li>
+              <li><i class="fab fa-github"></i> <a href="https://github.com/" target="_blank">GitHub</a></li>
+              <li><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/" target="_blank">LinkedIn</a></li>
+              <li><i class="fas fa-code"></i> <a href="https://leetcode.com/" target="_blank">LeetCode</a></li>
+              <li><i class="fas fa-envelope"></i> <a href="mailto:shahmir@gmail.com">shahmir@gmail.com</a></li>
+              <li><i class="fas fa-file-pdf"></i>
+                <a href="https://drive.google.com/file/d/1EobRccM37Iqepx31C7RryDf52BkpsKU_/view?usp=sharing" target="_blank">
+                  FYP Thesis
+                </a>
+              </li>
             </ul>
           </div>
-          <div class="col-md-6">
-            <img
-              src="./assets/images/network.png"
-              class="img-fluid about-img"
-              alt=""
-            />
-          </div>
         </div>
       </div>
     </section>
-    <!-- ----------testimonials---------- -->
-    <section id="testimonial">
+
+    <!-- ───── RESEARCH INTERESTS ───── -->
+    <section id="research" class="section-alt">
       <div class="container">
-        <h1 class="title text-center">Our Clients Feedback</h1>
-        <div class="row offset-1">
-          <div class="col-md-5 testimonial">
-            <p>
-              ***The team was very responsive and completed the task before the
-              deadline.***
-            </p>
-            <img src="./assets/images/user1.jpg" class="rounded-pill" alt="" />
-
-            <p class="user-details">
-              <b>Sara Gilbert</b><br />
-              Founder at abc
-            </p>
-          </div>
-
-          <div class="col-md-5 testimonial">
-            <p>
-              The Team was very responsive and completed the task before the
-              deadline.***
-            </p>
-            <img src="./assets/images/user2.jpg" class="rounded-pill" alt="" />
-
-            <p class="user-details">
-              <b>John Doe</b> <br />
-              Founder xyz
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- social media section -->
-    <section id="social-media">
-      <div class="container text-center">
-        <p class="title">Find us on social media</p>
-        <div class="social-icons">
-          <a href="#"><img src="/assets/images/facebook-icon.png" alt="" /></a>
-          <a href="#"><img src="/assets/images/whatsapp-icon.png" alt="" /></a>
-          <a href="#"><img src="/assets/images/linkedin-icon.png" alt="" /></a>
-          <a href="#"><img src="/assets/images/instagram-icon.png" alt="" /></a>
-          <a href="#"><img src="/assets/images/twitter-icon.png" alt="" /></a>
-        </div>
-      </div>
-    </section>
-    <!--------- footer --------- -->
-    <section id="footer">
-      <img src="assets/images/wave2.png" class="footer-img" alt="wave breeze" />
-      <div class="row">
-        <div class="col-md-4 footer-box">
-          <img src="assets/images/demo-logo.png" alt="" />
-          <p>
-            Building customized websites has never been so fast and effecient. I
-            deliver 100% accurate and satisfactory work to our clients.
-          </p>
-        </div>
-        <div class="col-md-4 footer-box">
-          <p><b>CONTACT US</b></p>
-          <p><i class="fa fa-map-marker"></i> Muqademman Offshorre Tech</p>
-          <p><i class="fa fa-phone"></i> +12 83894902</p>
-          <p><i class="fa fa-envelope"></i> sah@gmail.com</p>
-        </div>
-
-        <div class="col-md-4 footer-box">
-          <p><b>SUBSCRIBE</b></p>
-          <input type="email" class="form-control" placeholder="your email" />
-          <button type="button" class="btn btn-primary">subscribe</button>
-        </div>
-      </div>
-      <div class="text-center">
-        <hr />
-        <p class="copyright">
-          website's &copy copyright reserved by Shahmir Khan
+        <h2 class="section-title">Research Interests</h2>
+        <p class="section-sub">
+          My academic focus spans the intersection of deep learning, intelligent systems, and human-centered AI.
         </p>
+        <div class="research-grid">
+          <div class="research-card">
+            <div class="r-icon"><i class="fas fa-brain"></i></div>
+            <h4>Recommender Systems</h4>
+            <p>
+              Explored Neural Collaborative Filtering (NCF) combining MLP and GMF to overcome limitations of
+              traditional CF approaches — cold-start, sparsity, and linear MF assumptions. Results demonstrated
+              strong non-linear pattern capture on implicit feedback data.
+            </p>
+            <a href="https://drive.google.com/file/d/1EobRccM37Iqepx31C7RryDf52BkpsKU_/view?usp=sharing"
+               target="_blank" class="r-link">Read Thesis &rarr;</a>
+          </div>
+          <div class="research-card">
+            <div class="r-icon"><i class="fas fa-robot"></i></div>
+            <h4>LLM-Powered Applications</h4>
+            <p>
+              Hands-on experience fine-tuning LoRA adapters on AMD MI300X GPUs using ROCm. Built conversational
+              AI agents leveraging Gemma-4 via Fireworks API for wellness and recommendation use cases.
+            </p>
+          </div>
+          <div class="research-card">
+            <div class="r-icon"><i class="fas fa-network-wired"></i></div>
+            <h4>Parallel &amp; Distributed Systems</h4>
+            <p>
+              Academic grounding in designing scalable distributed architectures. Interested in how distributed
+              compute enables large-scale model training and inference pipelines.
+            </p>
+          </div>
+          <div class="research-card">
+            <div class="r-icon"><i class="fas fa-heartbeat"></i></div>
+            <h4>AI for Healthcare</h4>
+            <p>
+              Applied classical ML (KNN, Random Forest) to heart disease prediction with EDA-driven insights.
+              Interested in extending to deep learning models for clinical decision support.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
+
+    <!-- ───── PROJECTS ───── -->
+    <section id="projects">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+
+          <!-- Project 1 -->
+          <div class="project-card">
+            <div class="project-img-wrap">
+              <img src="./assets/images/recomenderWebsite.png" alt="Recommendation System" />
+              <span class="project-tag">Final Year Project</span>
+            </div>
+            <div class="project-body">
+              <h4>Deep Learning-based Recommendation System</h4>
+              <p>
+                Neural recommendation engine fusing MLP and GMF (Neural Collaborative Filtering) for an
+                e-commerce platform. Achieved 89% accuracy — a 10% gain over traditional baseline models.
+                Handles cold-start and data sparsity by learning from implicit feedback.
+              </p>
+              <div class="project-tech">
+                <span>Python</span><span>Deep Learning</span><span>NCF</span><span>Django</span>
+              </div>
+              <a href="https://drive.google.com/file/d/179R2ilL_mVVuFIBi2RutdcwXqh8DmL5e/view?usp=sharing"
+                 target="_blank" class="project-link">
+                <i class="fas fa-file-alt"></i> View Pitch Deck
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card">
+            <div class="project-img-wrap">
+              <img src="./assets/projects/elara.png" alt="Elara AI" />
+              <span class="project-tag hackathon-tag">Hackathon</span>
+            </div>
+            <div class="project-body">
+              <h4>Elara AI — Wellness Agent</h4>
+              <p>
+                Conversational wellness AI built at a hackathon. Fine-tuned a LoRA adapter on AMD MI300X GPUs
+                (ROCm) using a custom 39-example dataset. Integrated cycle intelligence and emotional wellness
+                agents using Gemma-4 via Fireworks API.
+              </p>
+              <div class="project-tech">
+                <span>LLM</span><span>LoRA</span><span>AMD ROCm</span><span>Gemma-4</span>
+              </div>
+              <a href="https://drive.google.com/file/d/12-AgiI_0F2c6oth-lTvTvIFvOZ5HPk-i/view?usp=sharing"
+                 target="_blank" class="project-link">
+                <i class="fas fa-file-alt"></i> View Pitch Deck
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card">
+            <div class="project-img-wrap">
+              <img src="./assets/projects/loanFlowAI.png" alt="LoanFlow AI" />
+              <span class="project-tag">AI Agent</span>
+            </div>
+            <div class="project-body">
+              <h4>LoanFlow AI — Loan Processing Agent</h4>
+              <p>
+                An intelligent loan processing agent that automates and streamlines loan application workflows
+                using AI-powered decision making and document analysis.
+              </p>
+              <div class="project-tech">
+                <span>AI Agents</span><span>Python</span><span>NLP</span>
+              </div>
+              <a href="https://drive.google.com/file/d/1Ced-bruvWWTkPbC1prC3AyoXTDOIuH0-/view?usp=sharing"
+                 target="_blank" class="project-link">
+                <i class="fas fa-file-alt"></i> View Pitch Deck
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="project-card">
+            <div class="project-img-wrap">
+              <div class="project-img-placeholder"><i class="fas fa-heartbeat"></i></div>
+              <span class="project-tag">ML</span>
+            </div>
+            <div class="project-body">
+              <h4>Heart Disease Prediction Model</h4>
+              <p>
+                Trained KNN and Random Forest classifiers for heart disease prediction. Evaluated using
+                accuracy, AUC/ROC, confusion matrix, and classification report. Performed EDA uncovering
+                sex vs. heart disease correlations in the dataset.
+              </p>
+              <div class="project-tech">
+                <span>Scikit-learn</span><span>EDA</span><span>KNN</span><span>Random Forest</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ───── HACKATHONS ───── -->
+    <section id="hackathons" class="section-alt">
+      <div class="container">
+        <h2 class="section-title">Hackathons</h2>
+        <p class="section-sub">Competitions where ideas meet execution under pressure.</p>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span class="timeline-year">2024</span>
+              <h4>Elara AI — AMD Hackathon</h4>
+              <p>
+                Built a wellness AI agent leveraging AMD MI300X GPUs on the AMD Developer Cloud with ROCm.
+                Fine-tuned a LoRA-adapted LLM on a custom wellness dataset and integrated multi-agent reasoning
+                for personalized health recommendations.
+              </p>
+              <div class="project-tech">
+                <span>LLM Fine-tuning</span><span>LoRA</span><span>AMD ROCm</span><span>Gemma-4</span>
+              </div>
+            </div>
+          </div>
+          <!-- Placeholder for future hackathons -->
+          <div class="timeline-item placeholder-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card placeholder-card">
+              <span class="timeline-year">Coming Soon</span>
+              <h4>More hackathons will be added here</h4>
+              <p>Stay tuned for upcoming participation and results.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───── AWARDS ───── -->
+    <section id="awards">
+      <div class="container">
+        <h2 class="section-title">Awards &amp; Achievements</h2>
+        <p class="section-sub">Recognition and milestones along the way.</p>
+        <div class="awards-grid">
+          <div class="award-card">
+            <div class="award-icon"><i class="fas fa-graduation-cap"></i></div>
+            <div class="award-body">
+              <h4>BS Computer Science — Distinction</h4>
+              <p>Graduated with distinction, demonstrating strong academic performance across core CS subjects.</p>
+            </div>
+          </div>
+          <!-- Placeholder cards for future awards -->
+          <div class="award-card placeholder-card">
+            <div class="award-icon"><i class="fas fa-trophy"></i></div>
+            <div class="award-body">
+              <h4>Award / Achievement</h4>
+              <p>To be added — this section will be updated with certifications, competition wins, and recognitions.</p>
+            </div>
+          </div>
+          <div class="award-card placeholder-card">
+            <div class="award-icon"><i class="fas fa-medal"></i></div>
+            <div class="award-body">
+              <h4>Certification / Honor</h4>
+              <p>To be added soon.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───── CV ───── -->
+    <section id="cv" class="section-alt">
+      <div class="container">
+        <h2 class="section-title">Curriculum Vitae</h2>
+        <p class="section-sub">A summary of my education, skills, and experience.</p>
+        <div class="cv-box">
+          <div class="cv-placeholder">
+            <i class="fas fa-file-pdf cv-icon"></i>
+            <h4>CV will be uploaded here</h4>
+            <p>Once available, you can preview or download the full CV directly from this section.</p>
+            <a href="#" class="btn-primary-custom disabled" aria-disabled="true">
+              <i class="fas fa-download"></i> Download CV
+            </a>
+          </div>
+          <div class="cv-skills">
+            <h4>Technical Skills</h4>
+            <div class="skill-group">
+              <span class="skill-label">Languages</span>
+              <div class="skill-tags">
+                <span>Python</span><span>JavaScript</span><span>TypeScript</span><span>SQL</span>
+              </div>
+            </div>
+            <div class="skill-group">
+              <span class="skill-label">Frameworks</span>
+              <div class="skill-tags">
+                <span>Django</span><span>Flask</span><span>React</span><span>Tailwind CSS</span>
+              </div>
+            </div>
+            <div class="skill-group">
+              <span class="skill-label">AI / ML</span>
+              <div class="skill-tags">
+                <span>PyTorch</span><span>Scikit-learn</span><span>LoRA Fine-tuning</span>
+                <span>LLM Agents</span><span>NCF</span>
+              </div>
+            </div>
+            <div class="skill-group">
+              <span class="skill-label">Tools</span>
+              <div class="skill-tags">
+                <span>Git</span><span>AMD ROCm</span><span>Fireworks API</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───── CONTACT ───── -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Get in Touch</h2>
+        <p class="section-sub">Feel free to reach out for research collaborations, opportunities, or just a chat.</p>
+        <div class="contact-grid">
+          <a href="mailto:shahmir@gmail.com" class="contact-card">
+            <i class="fas fa-envelope"></i>
+            <span>shahmir@gmail.com</span>
+          </a>
+          <a href="tel:+92 3402639815" class="contact-card">
+            <i class="fas fa-phone"></i>
+            <span>+92 3402639815</span>
+          </a>
+          <a href="https://linkedin.com/in/shahmir-khan-likin" target="_blank" class="contact-card">
+            <i class="fab fa-linkedin"></i>
+            <span>linkedin.com/in/shahmir</span>
+          </a>
+          <a href="https://github.com/shahmeerkhan12" target="_blank" class="contact-card">
+            <i class="fab fa-github"></i>
+            <span>github.com/shahmir</span>
+          </a>
+          <a href="https://leetcode.com/shahmir6990" target="_blank" class="contact-card">
+            <i class="fas fa-code"></i>
+            <span>leetcode.com/shahmir</span>
+          </a>
+        </div>
+      </div>
+      <footer>
+        <p>&copy; 2026 Shahmir Khan. All rights reserved.</p>
+      </footer>
+    </section>
+
     <script src="./assets/scripts.js"></script>
   </body>
 </html>

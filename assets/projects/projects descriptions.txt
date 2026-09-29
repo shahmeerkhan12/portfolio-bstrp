@@ -1,0 +1,12 @@
+Deep Learning-based Recommendation System [link]
+•	Designed and deployed a neural network recommendation engine for an e-commerce platform as the Final Year Project.
+•	Fused Multi-layer Perceptron (MLP) and Generalized Matrix Factorization (GMF) for better performance.
+•	Obtained an accuracy of 89%, a 10% increase over traditional baseline models. 
+Elara AI | Hackathon Project [link]
+•	Used Gemma-4 through the Fireworks API for intelligent reasoning and recommendation.
+•	Fine-tuned a LoRA adapter for an LLM-based wellness response agent on AMD MI300X GPUs (AMD Developer Cloud, ROCm), using a custom-curated 39-example dataset to align model tone with domainspecific conversational requirements. [check here]
+•	Integrated a cycle intelligence agent and an emotional wellness agent for personalized predictions. 
+Heart Disease Prediction Model
+•	Trained a KNeighborsClassifier and RandomForestClassifier model for heart disease prediction.
+•	Evaluated model using accuracy, AUC/ROC, confusion matrix, and classification report.
+•	Performed EDA and unleashed the sex vs heart disease insights in the dataset.
